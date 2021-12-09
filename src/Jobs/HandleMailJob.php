@@ -1,8 +1,8 @@
 <?php
 
-namespace Arthedain\HandleMail\Jobs;
+namespace Artsites\HandleMail\Jobs;
 
-use Arthedain\HandleMail\Mail\HandleMail;
+use Artsites\HandleMail\Mail\HandleMail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

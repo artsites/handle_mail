@@ -1,6 +1,6 @@
 <?php
 
-namespace Arthedain\HandleMail;
+namespace Artsites\HandleMail;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;

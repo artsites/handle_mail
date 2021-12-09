@@ -21,20 +21,20 @@ use Illuminate\Support\Facades\Route;
 /*
  * Tool
  */
-Route::get('/mails', 'Arthedain\HandleMail\Http\Controllers\ToolController@getMails');
-Route::get('/chart', 'Arthedain\HandleMail\Http\Controllers\ToolController@getChartData');
-Route::get('/failed_count', 'Arthedain\HandleMail\Http\Controllers\ToolController@failed');
-Route::post('/delete/{id}', 'Arthedain\HandleMail\Http\Controllers\ToolController@delete');
+Route::get('/mails', 'Artsites\HandleMail\Http\Controllers\ToolController@getMails');
+Route::get('/chart', 'Artsites\HandleMail\Http\Controllers\ToolController@getChartData');
+Route::get('/failed_count', 'Artsites\HandleMail\Http\Controllers\ToolController@failed');
+Route::post('/delete/{id}', 'Artsites\HandleMail\Http\Controllers\ToolController@delete');
 
 /*
  * Single mail
  */
-Route::get('/single/{id}', 'Arthedain\HandleMail\Http\Controllers\SingleController@single');
+Route::get('/single/{id}', 'Artsites\HandleMail\Http\Controllers\SingleController@single');
 
 /*
  * Failed
  */
-Route::get('/failed_list', 'Arthedain\HandleMail\Http\Controllers\FailedController@get');
-Route::get('/failed_single/{id}', 'Arthedain\HandleMail\Http\Controllers\FailedController@single');
-Route::post('/resend_mail/{id?}', 'Arthedain\HandleMail\Http\Controllers\FailedController@retry');
-Route::post('/delete_failed/{id}', 'Arthedain\HandleMail\Http\Controllers\FailedController@delete');
+Route::get('/failed_list', 'Artsites\HandleMail\Http\Controllers\FailedController@get');
+Route::get('/failed_single/{id}', 'Artsites\HandleMail\Http\Controllers\FailedController@single');
+Route::post('/resend_mail/{id?}', 'Artsites\HandleMail\Http\Controllers\FailedController@retry');
+Route::post('/delete_failed/{id}', 'Artsites\HandleMail\Http\Controllers\FailedController@delete');

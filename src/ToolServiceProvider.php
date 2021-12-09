@@ -1,17 +1,17 @@
 <?php
 
-namespace Arthedain\HandleMail;
+namespace Artsites\HandleMail;
 
-use Arthedain\HandleMail\Models\FailedJobs;
+use Artsites\HandleMail\Models\FailedJobs;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
-use Arthedain\HandleMail\Http\Middleware\Authorize;
+use Artsites\HandleMail\Http\Middleware\Authorize;
 use Illuminate\Support\Facades\Queue;
 use Illuminate\Queue\Events\JobProcessed;
 use Illuminate\Queue\Events\JobFailed;
-use Arthedain\HandleMail\Models\HandleMail;
+use Artsites\HandleMail\Models\HandleMail;
 
 class ToolServiceProvider extends ServiceProvider
 {

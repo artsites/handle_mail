@@ -1,6 +1,6 @@
 <?php
 
-namespace Arthedain\HandleMail\Models;
+namespace Artsites\HandleMail\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Arthedain\HandleMail\Http\Controllers\User;
+namespace Artsites\HandleMail\Http\Controllers\User;
 
-use Arthedain\HandleMail\Jobs\HandleMailJob;
+use Artsites\HandleMail\Jobs\HandleMailJob;
 use Illuminate\Http\Request;
 
 class HandleMailController

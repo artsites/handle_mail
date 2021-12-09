@@ -1,9 +1,9 @@
 <?php
 
-namespace Arthedain\HandleMail\Http\Middleware;
+namespace Artsites\HandleMail\Http\Middleware;
 
 use Laravel\Nova\Nova;
-use Arthedain\HandleMail\HandleMail;
+use Artsites\HandleMail\HandleMail;
 
 class Authorize
 {

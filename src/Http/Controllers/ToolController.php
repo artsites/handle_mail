@@ -1,6 +1,6 @@
 <?php
 
-namespace Arthedain\HandleMail\Http\Controllers;
+namespace Artsites\HandleMail\Http\Controllers;
 
 use Carbon\Carbon;
 use Carbon\CarbonPeriod;

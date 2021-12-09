@@ -1,6 +1,6 @@
 <?php
 
-namespace Arthedain\HandleMail\Mail;
+namespace Artsites\HandleMail\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

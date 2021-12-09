@@ -13,18 +13,18 @@ return [
      * Models path
      */
     'models' => [
-        'handle_mail' => Arthedain\HandleMail\Models\HandleMail::class,
-        'failed_jobs' => Arthedain\HandleMail\Models\FailedJobs::class,
+        'handle_mail' => Artsites\HandleMail\Models\HandleMail::class,
+        'failed_jobs' => Artsites\HandleMail\Models\FailedJobs::class,
     ],
 
     /*
      * Mail path
      */
-    'mail' => Arthedain\HandleMail\Mail\HandleMail::class,
+    'mail' => Artsites\HandleMail\Mail\HandleMail::class,
 
     /*
      * Mail job path
      */
-    'job' => Arthedain\HandleMail\Jobs\HandleMailJob::class,
+    'job' => Artsites\HandleMail\Jobs\HandleMailJob::class,
 
 ];

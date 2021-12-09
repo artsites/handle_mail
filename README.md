@@ -5,7 +5,7 @@ Laravel Nova Tool for managing sending mails from the site through the queue
 Installation
 ---
 ```
-composer require arthedain/handle-mail
+composer require Artsites/handle-mail
 ```
 Register tool in NovaServiceProvider
 
@@ -18,7 +18,7 @@ public function tools()
 
 After registering publish default files
 ````
-php artisan vendor:publish --provider="Arthedain\HandleMail\ToolServiceProvider" --tag="default"
+php artisan vendor:publish --provider="Artsites\HandleMail\ToolServiceProvider" --tag="default"
 ````
 > Or you can publish files by tag:
 > * job
@@ -68,7 +68,7 @@ Route for request  ```/handle-mail/send```. Route name ``handle-mail.send``
 
 If you need to execute code before sending mail, you can change the path and call the method:
 ```$xslt
-namespace Arthedain\HandleMail\Http\Controllers\User;
+namespace Artsites\HandleMail\Http\Controllers\User;
 
 class HandleMailController
 {

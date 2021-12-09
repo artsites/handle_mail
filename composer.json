@@ -1,5 +1,5 @@
 {
-    "name": "arthedain/handle-mail",
+    "name": "artsites/handle-mail",
     "description": "A Laravel Nova tool.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Arthedain\\HandleMail\\": "src/"
+            "Artsites\\HandleMail\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Arthedain\\HandleMail\\ToolServiceProvider"
+                "Artsites\\HandleMail\\ToolServiceProvider"
             ]
         }
     },

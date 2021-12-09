@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Arthedain\HandleMail\Http\Controllers;
+namespace Artsites\HandleMail\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
